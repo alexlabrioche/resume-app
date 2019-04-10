@@ -1,4 +1,4 @@
-<h1>Hi, I'm Alex!</h1>
+<h1>🥥 Hi, I'm Alex!</h1>
 
 <p align="center">
 I made a small Express website to present my resume<br><br>
