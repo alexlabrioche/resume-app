@@ -1,0 +1,117 @@
+body {
+  background-color: white;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+body a {
+  margin-right: 2.5rem;
+  text-decoration: none;
+  color: #5e5e5e;
+}
+body a:hover {
+  color: #ff9010;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+}
+
+.nav-icons {
+  text-align: right;
+  position: absolute;
+  padding-top: 4rem;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro h1 {
+  text-align: center;
+}
+
+.home {
+  height: 100vh;
+}
+.home .home-content {
+  padding-top: 25rem;
+}
+.home h3 {
+  text-align: center;
+}
+
+.resume {
+  height: 100vh;
+}
+.resume img {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+}
+
+.resume-main {
+  padding-top: 8rem;
+}
+.resume-main a {
+  font-size: 2.5rem;
+  margin-right: 0;
+}
+.resume-main p a {
+  font-size: 1.6rem;
+}
+.resume-main .resume-link-intext {
+  color: #ff9010;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sub-section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+.sub-section h5 {
+  color: #6200ff;
+}
+.sub-section .img-container {
+  display: flex;
+}
+.sub-section img {
+  padding-bottom: 2.5rem;
+  width: 16%;
+  height: 16%;
+  opacity: 0.75;
+}
+
+.resume-sub {
+  padding-top: 8rem;
+}
+
+.projects-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .columns {
+  padding-bottom: 2.5rem;
+}
+.gallery h4 {
+  padding-top: 16rem;
+  padding-bottom: 8rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-icons {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */

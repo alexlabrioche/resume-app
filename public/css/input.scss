@@ -1,0 +1,144 @@
+$base-color: #444;
+$secondary-color: #6200ff;
+$accent-color: #ff9010;
+
+$font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$full-screen: 100vh;
+$small-height: 2.5rem;
+$medium-height: 4rem;
+
+// Base
+body {
+  background-color: white;
+  font-family: $font-family;
+  color: $base-color;
+  a {
+    margin-right: $small-height;
+    text-decoration: none;
+    color: lighten($base-color, 10%); 
+  }
+  a:hover {
+    color: $accent-color;
+    transition: all 0.15s ease-in-out;
+    text-decoration: none;
+  }
+}
+
+.nav-icons {
+  text-align: right;
+  position: absolute;
+  padding-top: $medium-height;
+}
+
+// Intro
+.intro {
+  height: $full-screen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    text-align: center;
+  }
+}
+// Home
+.home {
+  height: $full-screen;
+  .home-content {
+    padding-top: 25rem;
+  }
+  h3 {
+    text-align: center;
+  }
+}
+// Resume
+.resume {
+  height: $full-screen;
+  img {
+    padding-top: $small-height;
+    padding-bottom: $small-height;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+  }
+}
+
+.resume-main {
+  padding-top: $medium-height * 2;
+  a {
+    font-size: $small-height;
+    margin-right: 0;
+  }
+  p {
+    a {
+      font-size: 1.6rem;
+    }
+  }
+  .resume-link-intext {
+    color: $accent-color;
+    font-family: $font-family;
+
+  }
+}
+
+.sub-section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: $medium-height;
+  h5 {
+    color: $secondary-color;
+  }
+  .img-container {
+    display: flex;
+  }
+  img {
+    padding-bottom: $small-height;
+    width: 16%;
+    height: 16%;
+    opacity: 0.75;
+  }
+}
+
+.resume-sub {
+  padding-top: $medium-height * 2;
+}
+
+
+
+// projects 
+.projects-content {
+  height: $full-screen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// gallery
+.gallery {
+  .columns {
+    padding-bottom: $small-height;
+  }
+  h4 {
+    padding-top: $medium-height * 4;
+    padding-bottom: $medium-height * 2;
+  }
+}
+
+// Footer
+.footer {
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+}
+.footer-icons {
+  text-align: center;
+  font-size: $small-height;
+}
+
+
+
+
+
+
+
+
+
